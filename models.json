@@ -1,697 +1,102 @@
 {
-	"openAI": [
-		{
-			"modelName": "o3",
-			"contextWindow": 1047576,
-			"reservedOutputTokenSpace": 32768,
-			"cost": {
-				"input": 10.0,
-				"output": 40.0,
-				"cache_read": 2.5
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"specialToolFormat": "openai-style",
-			"supportsSystemMessage": "developer-role",
-			"reasoningCapabilities": {
-				"supportsReasoning": true,
-				"canTurnOffReasoning": false,
-				"canIOReasoning": false,
-				"reasoningSlider": {
-					"type": "effort_slider",
-					"values": [
-						"low",
-						"medium",
-						"high"
-					],
-					"default": "low"
-				}
-			}
-		},
-		{
-			"modelName": "o4-mini",
-			"contextWindow": 1047576,
-			"reservedOutputTokenSpace": 32768,
-			"cost": {
-				"input": 1.1,
-				"output": 4.4,
-				"cache_read": 0.275
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"specialToolFormat": "openai-style",
-			"supportsSystemMessage": "developer-role",
-			"reasoningCapabilities": {
-				"supportsReasoning": true,
-				"canTurnOffReasoning": false,
-				"canIOReasoning": false,
-				"reasoningSlider": {
-					"type": "effort_slider",
-					"values": [
-						"low",
-						"medium",
-						"high"
-					],
-					"default": "low"
-				}
-			}
-		},
-		{
-			"modelName": "gpt-4.1",
-			"contextWindow": 1047576,
-			"reservedOutputTokenSpace": 32768,
-			"cost": {
-				"input": 2.0,
-				"output": 8.0,
-				"cache_read": 0.5
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"specialToolFormat": "openai-style",
-			"supportsSystemMessage": "developer-role",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "gpt-4.1-mini",
-			"contextWindow": 1047576,
-			"reservedOutputTokenSpace": 32768,
-			"cost": {
-				"input": 0.4,
-				"output": 1.6,
-				"cache_read": 0.1
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"specialToolFormat": "openai-style",
-			"supportsSystemMessage": "developer-role",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "gpt-4.1-nano",
-			"contextWindow": 1047576,
-			"reservedOutputTokenSpace": 32768,
-			"cost": {
-				"input": 0.1,
-				"output": 0.4,
-				"cache_read": 0.03
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"specialToolFormat": "openai-style",
-			"supportsSystemMessage": "developer-role",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "o1",
-			"contextWindow": 128000,
-			"reservedOutputTokenSpace": 100000,
-			"cost": {
-				"input": 15.0,
-				"output": 60.0,
-				"cache_read": 7.5
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "developer-role",
-			"reasoningCapabilities": {
-				"supportsReasoning": true,
-				"canTurnOffReasoning": false,
-				"canIOReasoning": false,
-				"reasoningSlider": {
-					"type": "effort_slider",
-					"values": [
-						"low",
-						"medium",
-						"high"
-					],
-					"default": "low"
-				}
-			}
-		},
-		{
-			"modelName": "o3-mini",
-			"contextWindow": 200000,
-			"reservedOutputTokenSpace": 100000,
-			"cost": {
-				"input": 1.1,
-				"output": 4.4,
-				"cache_read": 0.55
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "developer-role",
-			"reasoningCapabilities": {
-				"supportsReasoning": true,
-				"canTurnOffReasoning": false,
-				"canIOReasoning": false,
-				"reasoningSlider": {
-					"type": "effort_slider",
-					"values": [
-						"low",
-						"medium",
-						"high"
-					],
-					"default": "low"
-				}
-			}
-		},
-		{
-			"modelName": "gpt-4o",
-			"contextWindow": 128000,
-			"reservedOutputTokenSpace": 16384,
-			"cost": {
-				"input": 2.5,
-				"output": 10.0,
-				"cache_read": 1.25
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"specialToolFormat": "openai-style",
-			"supportsSystemMessage": "system-role",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "o1-mini",
-			"contextWindow": 128000,
-			"reservedOutputTokenSpace": 65536,
-			"cost": {
-				"input": 1.1,
-				"output": 4.4,
-				"cache_read": 0.55
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": false,
-			"reasoningCapabilities": {
-				"supportsReasoning": true,
-				"canTurnOffReasoning": false,
-				"canIOReasoning": false,
-				"reasoningSlider": {
-					"type": "effort_slider",
-					"values": [
-						"low",
-						"medium",
-						"high"
-					],
-					"default": "low"
-				}
-			}
-		},
-		{
-			"modelName": "gpt-4o-mini",
-			"contextWindow": 128000,
-			"reservedOutputTokenSpace": 16384,
-			"cost": {
-				"input": 0.15,
-				"output": 0.6,
-				"cache_read": 0.075
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"specialToolFormat": "openai-style",
-			"supportsSystemMessage": "system-role",
-			"reasoningCapabilities": false
-		}
-	],
-	"xAI": [
-		{
-			"modelName": "grok-2",
-			"contextWindow": 131072,
-			"reservedOutputTokenSpace": null,
-			"cost": {
-				"input": 2.0,
-				"output": 10.0
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "system-role",
-			"specialToolFormat": "openai-style",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "grok-3",
-			"contextWindow": 131072,
-			"reservedOutputTokenSpace": null,
-			"cost": {
-				"input": 3.0,
-				"output": 15.0
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "system-role",
-			"specialToolFormat": "openai-style",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "grok-3-fast",
-			"contextWindow": 131072,
-			"reservedOutputTokenSpace": null,
-			"cost": {
-				"input": 5.0,
-				"output": 25.0
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "system-role",
-			"specialToolFormat": "openai-style",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "grok-3-mini",
-			"contextWindow": 131072,
-			"reservedOutputTokenSpace": null,
-			"cost": {
-				"input": 0.3,
-				"output": 0.5
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "system-role",
-			"specialToolFormat": "openai-style",
-			"reasoningCapabilities": {
-				"supportsReasoning": true,
-				"canTurnOffReasoning": false,
-				"canIOReasoning": false,
-				"reasoningSlider": {
-					"type": "effort_slider",
-					"values": [
-						"low",
-						"high"
-					],
-					"default": "low"
-				}
-			}
-		},
-		{
-			"modelName": "grok-3-mini-fast",
-			"contextWindow": 131072,
-			"reservedOutputTokenSpace": null,
-			"cost": {
-				"input": 0.6,
-				"output": 4.0
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "system-role",
-			"specialToolFormat": "openai-style",
-			"reasoningCapabilities": {
-				"supportsReasoning": true,
-				"canTurnOffReasoning": false,
-				"canIOReasoning": false,
-				"reasoningSlider": {
-					"type": "effort_slider",
-					"values": [
-						"low",
-						"high"
-					],
-					"default": "low"
-				}
-			}
-		}
-	],
-	"gemini": [
-		{
-			"modelName": "gemini-2.5-pro-preview-05-06",
-			"contextWindow": 1048576,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 0,
-				"output": 0
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "separated",
-			"specialToolFormat": "gemini-style",
-			"reasoningCapabilities": {
-				"supportsReasoning": true,
-				"canTurnOffReasoning": true,
-				"canIOReasoning": false,
-				"reasoningSlider": {
-					"type": "budget_slider",
-					"min": 1024,
-					"max": 8192,
-					"default": 1024
-				},
-				"reasoningReservedOutputTokenSpace": 8192
-			}
-		},
-		{
-			"modelName": "gemini-2.0-flash-lite",
-			"contextWindow": 1048576,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 0,
-				"output": 0
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "separated",
-			"specialToolFormat": "gemini-style",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "gemini-2.5-flash-preview-04-17",
-			"contextWindow": 1048576,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 0.15,
-				"output": 0.6
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "separated",
-			"specialToolFormat": "gemini-style",
-			"reasoningCapabilities": {
-				"supportsReasoning": true,
-				"canTurnOffReasoning": true,
-				"canIOReasoning": false,
-				"reasoningSlider": {
-					"type": "budget_slider",
-					"min": 1024,
-					"max": 8192,
-					"default": 1024
-				},
-				"reasoningReservedOutputTokenSpace": 8192
-			}
-		},
-		{
-			"modelName": "gemini-2.5-pro-exp-03-25",
-			"contextWindow": 1048576,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 0,
-				"output": 0
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "separated",
-			"specialToolFormat": "gemini-style",
-			"reasoningCapabilities": {
-				"supportsReasoning": true,
-				"canTurnOffReasoning": true,
-				"canIOReasoning": false,
-				"reasoningSlider": {
-					"type": "budget_slider",
-					"min": 1024,
-					"max": 8192,
-					"default": 1024
-				},
-				"reasoningReservedOutputTokenSpace": 8192
-			}
-		},
-		{
-			"modelName": "gemini-2.0-flash",
-			"contextWindow": 1048576,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 0.10,
-				"output": 0.40
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "separated",
-			"specialToolFormat": "gemini-style",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "gemini-2.0-flash-lite-preview-02-05",
-			"contextWindow": 1048576,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 0.075,
-				"output": 0.30
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "separated",
-			"specialToolFormat": "gemini-style",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "gemini-1.5-flash",
-			"contextWindow": 1048576,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 0.075,
-				"output": 0.30
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "separated",
-			"specialToolFormat": "gemini-style",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "gemini-1.5-pro",
-			"contextWindow": 2097152,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 1.25,
-				"output": 5.00
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "separated",
-			"specialToolFormat": "gemini-style",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "gemini-1.5-flash-8b",
-			"contextWindow": 1048576,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 0.0375,
-				"output": 0.15
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "separated",
-			"specialToolFormat": "gemini-style",
-			"reasoningCapabilities": false
-		}
-	],
-	"deepseek": [
-		{
-			"modelName": "deepseek-chat",
-			"contextWindow": 64000,
-			"reservedOutputTokenSpace": 8000,
-			"cost": {
-				"input": 0.27,
-				"output": 1.10,
-				"cache_read": 0.07
-			},
-			"downloadable": false
-		},
-		{
-			"modelName": "deepseek-reasoner",
-			"contextWindow": 64000,
-			"reservedOutputTokenSpace": 8000,
-			"cost": {
-				"input": 0.55,
-				"output": 2.19,
-				"cache_read": 0.14
-			},
-			"downloadable": false
-		}
-	],
-	"mistral": [
-		{
-			"modelName": "mistral-large-latest",
-			"contextWindow": 131000,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 2.00,
-				"output": 6.00
-			},
-			"supportsFIM": false,
-			"downloadable": {
-				"sizeGb": 73
-			},
-			"supportsSystemMessage": "system-role",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "mistral-medium-latest",
-			"contextWindow": 131000,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 0.40,
-				"output": 2.00
-			},
-			"supportsFIM": false,
-			"downloadable": {
-				"sizeGb": "not-known"
-			},
-			"supportsSystemMessage": "system-role",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "codestral-latest",
-			"contextWindow": 256000,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 0.30,
-				"output": 0.90
-			},
-			"supportsFIM": true,
-			"downloadable": {
-				"sizeGb": 13
-			},
-			"supportsSystemMessage": "system-role",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "magistral-medium-latest",
-			"contextWindow": 256000,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 0.30,
-				"output": 0.90
-			},
-			"supportsFIM": true,
-			"downloadable": {
-				"sizeGb": 13
-			},
-			"supportsSystemMessage": "system-role",
-			"reasoningCapabilities": {
-				"supportsReasoning": true,
-				"canIOReasoning": true,
-				"canTurnOffReasoning": false,
-				"openSourceThinkTags": [
-					"<think>",
-					"</think>"
-				]
-			}
-		},
-		{
-			"modelName": "magistral-small-latest",
-			"contextWindow": 40000,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 0.30,
-				"output": 0.90
-			},
-			"supportsFIM": true,
-			"downloadable": {
-				"sizeGb": 13
-			},
-			"supportsSystemMessage": "system-role",
-			"reasoningCapabilities": {
-				"supportsReasoning": true,
-				"canIOReasoning": true,
-				"canTurnOffReasoning": false,
-				"openSourceThinkTags": [
-					"<think>",
-					"</think>"
-				]
-			}
-		},
-		{
-			"modelName": "devstral-small-latest",
-			"contextWindow": 131000,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 0,
-				"output": 0
-			},
-			"supportsFIM": false,
-			"downloadable": {
-				"sizeGb": 14
-			},
-			"supportsSystemMessage": "system-role",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "ministral-8b-latest",
-			"contextWindow": 131000,
-			"reservedOutputTokenSpace": 4096,
-			"cost": {
-				"input": 0.10,
-				"output": 0.10
-			},
-			"supportsFIM": false,
-			"downloadable": {
-				"sizeGb": 4.1
-			},
-			"supportsSystemMessage": "system-role",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "ministral-3b-latest",
-			"contextWindow": 131000,
-			"reservedOutputTokenSpace": 4096,
-			"cost": {
-				"input": 0.04,
-				"output": 0.04
-			},
-			"supportsFIM": false,
-			"downloadable": {
-				"sizeGb": "not-known"
-			},
-			"supportsSystemMessage": "system-role",
-			"reasoningCapabilities": false
-		}
-	],
-	"groq": [
-		{
-			"modelName": "llama-3.3-70b-versatile",
-			"contextWindow": 128000,
-			"reservedOutputTokenSpace": 32768,
-			"cost": {
-				"input": 0.59,
-				"output": 0.79
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "system-role",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "llama-3.1-8b-instant",
-			"contextWindow": 128000,
-			"reservedOutputTokenSpace": 8192,
-			"cost": {
-				"input": 0.05,
-				"output": 0.08
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "system-role",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "qwen-2.5-coder-32b",
-			"contextWindow": 128000,
-			"reservedOutputTokenSpace": null,
-			"cost": {
-				"input": 0.79,
-				"output": 0.79
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "system-role",
-			"reasoningCapabilities": false
-		},
-		{
-			"modelName": "qwen-qwq-32b",
-			"contextWindow": 128000,
-			"reservedOutputTokenSpace": null,
-			"cost": {
-				"input": 0.29,
-				"output": 0.39
-			},
-			"downloadable": false,
-			"supportsFIM": false,
-			"supportsSystemMessage": "system-role",
-			"reasoningCapabilities": {
-				"supportsReasoning": true,
-				"canIOReasoning": true,
-				"canTurnOffReasoning": false,
-				"openSourceThinkTags": [
-					"<think>",
-					"</think>"
-				]
-			}
-		}
-	]
+  "schemaVersion": 1,
+  "catalogVersion": "2026-03-04-stable.2",
+  "generatedAt": "2026-03-04T12:00:00Z",
+  "providers": {
+    "openAI": {
+      "models": [
+        { "id": "gpt-5.2", "enabled": true },
+        { "id": "gpt-5.1", "enabled": true },
+        { "id": "gpt-5", "enabled": true },
+        { "id": "gpt-5-mini", "enabled": true },
+        { "id": "gpt-5-nano", "enabled": true },
+
+        { "id": "gpt-5.3-codex", "enabled": true },
+        { "id": "gpt-5.2-codex", "enabled": true },
+        { "id": "gpt-5.1-codex", "enabled": true },
+        { "id": "gpt-5.1-codex-max", "enabled": true },
+        { "id": "gpt-5-codex", "enabled": true },
+
+        { "id": "gpt-4.1", "enabled": true },
+        { "id": "gpt-4.1-mini", "enabled": true },
+        { "id": "gpt-4.1-nano", "enabled": true }
+      ],
+      "disabledModelIds": [],
+      "removedModelIds": []
+    },
+    "anthropic": {
+      "models": [
+        { "id": "claude-opus-4-6", "enabled": true },
+        { "id": "claude-sonnet-4-6", "enabled": true },
+        { "id": "claude-haiku-4-5", "enabled": true },
+
+        { "id": "claude-opus-4-0", "enabled": true },
+        { "id": "claude-sonnet-4-0", "enabled": true },
+        { "id": "claude-3-7-sonnet-latest", "enabled": true }
+      ],
+      "disabledModelIds": [],
+      "removedModelIds": []
+    },
+    "gemini": {
+      "models": [
+        { "id": "gemini-3.1-pro-preview", "enabled": true },
+        { "id": "gemini-3.1-pro-preview-customtools", "enabled": true },
+        { "id": "gemini-3-flash-preview", "enabled": true },
+        { "id": "gemini-3.1-flash-lite-preview", "enabled": true },
+
+        { "id": "gemini-2.5-pro", "enabled": true },
+        { "id": "gemini-2.5-flash", "enabled": true }
+      ],
+      "disabledModelIds": [],
+      "removedModelIds": []
+    },
+    "deepseek": {
+      "models": [
+        { "id": "deepseek-v3.2", "enabled": true },
+        { "id": "deepseek-v3.1", "enabled": true },
+        { "id": "deepseek-chat", "enabled": true },
+        { "id": "deepseek-reasoner", "enabled": true }
+      ],
+      "disabledModelIds": [],
+      "removedModelIds": []
+    },
+    "openAICompatible": {
+      "models": [
+        { "id": "MiniMax-M2.5", "enabled": true },
+        { "id": "MiniMax-Text-01", "enabled": true }
+      ],
+      "disabledModelIds": [],
+      "removedModelIds": []
+    }
+  },
+  "channels": {
+    "canary": {
+      "catalogVersion": "2026-03-04-canary.1",
+      "providers": {
+        "openAI": {
+          "models": [
+            { "id": "gpt-5.3-codex", "enabled": true }
+          ],
+          "disabledModelIds": [],
+          "removedModelIds": []
+        },
+        "anthropic": {
+          "models": [
+            { "id": "claude-opus-4-6", "enabled": true },
+            { "id": "claude-sonnet-4-6", "enabled": true }
+          ],
+          "disabledModelIds": [],
+          "removedModelIds": []
+        },
+        "gemini": {
+          "models": [
+            { "id": "gemini-3.1-pro-preview", "enabled": true },
+            { "id": "gemini-3.1-flash-lite-preview", "enabled": true }
+          ],
+          "disabledModelIds": [],
+          "removedModelIds": []
+        }
+      }
+    }
+  }
 }
