@@ -38,10 +38,10 @@
         },
         "options": {}
       },
-      "gpt-5.3-codex-spark": {
-        "id": "gpt-5.3-codex-spark",
-        "name": "GPT-5.3 Codex Spark",
-        "family": "gpt-codex-spark",
+      "gpt-5.4": {
+        "id": "gpt-5.4",
+        "name": "gpt-5.4",
+        "family": "gpt",
         "release_date": "2026-02-05",
         "attachment": true,
         "reasoning": true,
